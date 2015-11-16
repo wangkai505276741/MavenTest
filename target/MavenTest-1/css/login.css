@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+@charset "utf-8";
+*{font-size:12px; font-family:Tahoma,Verdana,微软雅黑,新宋体}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma,Verdana,微软雅黑,新宋体;
+}
+
+#loginDiv { 
+	position:absolute;
+	top:50%;  
+	left:50%;
+	width:400px;
+	height:400px;
+	margin-top:-200px;
+	margin-left:-200px;
+	background: url("../images/login_bg.png") no-repeat;
+}
+#loginDiv div{
+}
+#loginDiv div table{
+	padding-top:20px;
+	padding-left:15px;
+}
+#loginDiv div table tr{
+	height:35px;
+}
